@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "qrcode-creator"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre - Girassol <alexandrecarrascosa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+vobject = "^0.9.6.1"
+pillow = "^10.2.0"
+tk = "^0.1.0"
+pandas = "^2.2.1"
+openpyxl = "^3.1.2"
+opencv-python = "^4.9.0.80"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
